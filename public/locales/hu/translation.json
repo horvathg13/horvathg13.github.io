@@ -1,0 +1,148 @@
+{
+  "header": {
+    "menu": {
+      "Home":{
+        "title":"Kezdőlap"
+      },
+      "AboutMe":{
+        "title": "Magamról",
+        "navLink": "/about"
+      },
+      "Projects":{
+        "title": "Projektek",
+        "navLink": "/projects"
+      },
+      "Research":{
+        "title": "Kutatás",
+        "navLink": "/research"
+      },
+      "ContactMe":{
+        "title": "Kapcsolat",
+        "navLink":"/contact"
+      }
+    }
+  },
+  "aboutMe": {
+    "title": "Bemutatkozás",
+    "paragraphs": {
+      "first": "Junior webfejlesztő vagyok, zongoraművész és jelenleg zongoratanárként dolgozom.",
+      "second":"2022 szeptembere óta aktívan programozok, melyet önképzéssel sajátítottam el. Először az R nyelvvel kezdtem ismerkedni, majd a webfejlesztés iránya ragadott magával. Tanulmányaim során YouTube videókat néztem, online könyveket olvastam, dokumentációkat olvastam és fórumokat követtem. Szakmai kérdéseimmel pedig bizalommal fordulhattam IT-s barátaimhoz.",
+      "third": "Összességében elkötelezett, lelkes vagyok a webfejlesztés iránt és szeretném tovább bővíteni tudásomat ezen a területen."
+    }
+  },
+  "greeting": {
+    "titles": {
+      "name": "Horváth Gábor",
+      "position": "Full-Stack Junior webfejlesztő"
+    },
+    "cvButton": {
+      "title": "Önéletrajz"
+    }
+  },
+  "project": {
+    "Project-Lab": {
+      "titles": {
+        "description": "Leírás",
+        "technologies": "Technológiák"
+      },
+      "paragraphs": {
+        "first": "Project-Lab egy projekt és feladatkezelő alkalmazás, amely segíti a hatékony és gyors munkaszervezést egy projekten belül."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authentikáció"
+        },
+        {
+          "icon": "FaDiagramProject",
+          "title": "Projektek"
+        },
+        {
+          "icon": "FaTasks",
+          "title": "Feladatok"
+        },
+        {
+          "icon": "AiOutlineNotification",
+          "title": "Határiő kezelés"
+        },
+        {
+          "icon": "FaRegCommentDots",
+          "title": "Kommunikáció"
+        }
+      ],
+      "links":[
+        {
+          "title": "Galéria",
+          "onClick": "open"
+        },
+        {
+          "icon": "FaDocker",
+          "title": "Docker-link"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Dokumentáció"
+        }
+      ]
+    },
+    "ContactList": {
+      "titles": {
+        "description": "Leírás",
+        "technologies": "Technológiák"
+      },
+      "paragraphs": {
+        "first": "A ContactList App egy tanuló project. Ezen a projekten leginkább a react-tal ismerkedtem meg, illetve az authentikációval."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authentikáció"
+        }
+      ],
+      "links":[
+        {
+          "title": "Gallery",
+          "onClick": "open"
+        }
+      ]
+    },
+    "PrivateTeacher": {
+      "titles": {
+        "description": "Leírás",
+        "technologies": "Technológiák"
+      },
+      "paragraphs": {
+        "first": "A PrivateTeacher egy folyamatban lévő projekt, amely fejlesztés alatt áll. A projekt magánoktatók számára készül, akik létrehozhatják saját iskolájukat, vagy csatlakozhatnak egy már meglévőhöz. Az iskolán belül kurzusokat hozhatnak létre egyéni feltételek szerint és az oktatók bírálják el a beérkező jelentkezési kérelmeket is. A szülők részletes keresőmotor segítségével kereshetnek kurzusokat, és jelentkeztethetik már regisztrált gyerekeiket a kurzusra. Az alkalmazás több értesítést is tartalmaz, mint például a tandíjfizetési határidő, bejövő kérelmek, tanóra lemondása stb..."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authentikáció"
+        },
+        {
+          "icon": "AiOutlineNotification",
+          "title": "Notifications"
+        },
+        {
+          "icon": "FaRegCommentDots",
+          "title": "Communication"
+        }
+      ],
+      "links":[
+        {
+          "title": "Gallery",
+          "onClick": "open"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "form": {
+      "name": "Név",
+      "email": "E-mail",
+      "subject": "Tárgy",
+      "message": "Üzenet"
+    }
+  }
+}

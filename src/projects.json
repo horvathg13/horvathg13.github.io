@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1",
+    "name": "Project-Lab",
+    "img": "/ProjectLab/cover/cover.jpg",
+    "load": "true",
+    "images": "/ProjectLab",
+    "docker": "https://github.com/horvathg13/ProjectLab-Docker.git",
+    "slides": [
+      {
+        "src":"/ProjectLab/1.jpg"
+      },
+      {
+        "src":"/ProjectLab/2.jpg"
+      },
+      {
+        "src":"/ProjectLab/3.jpg"
+      },
+      {
+        "src":"/ProjectLab/4.jpg"
+      },
+      {
+        "src":"/ProjectLab/5.jpg"
+      },
+      {
+        "src":"/ProjectLab/6.jpg"
+      },
+      {
+        "src":"/ProjectLab/7.jpg"
+      },
+      {
+        "src":"/ProjectLab/8.jpg"
+      },
+      {
+        "src":"/ProjectLab/9.jpg"
+      },
+      {
+        "src":"/ProjectLab/10.jpg"
+      },
+      {
+        "src":"/ProjectLab/11.jpg"
+      },
+      {
+        "src":"/ProjectLab/13.jpg"
+      },
+      {
+        "src":"/ProjectLab/14.jpg"
+      },
+      {
+        "src":"/ProjectLab/15.jpg"
+      },
+      {
+        "src":"/ProjectLab/16.jpg"
+      },
+      {
+        "src":"/ProjectLab/17.jpg"
+      }
+    ],
+    "appSupport":[
+      {
+        "icon": "SiAuthelia"
+      },
+      {
+        "icon": "FaDiagramProject"
+      },
+      {
+        "icon": "FaTasks"
+      },
+      {
+        "icon": "AiOutlineNotification"
+      },
+      {
+        "icon": "FaRegCommentDots"
+      }
+    ],
+    "techIcons": [
+      {
+        "icon": "FaVuejs"
+      },
+      {
+        "icon": "FaPhp"
+      },
+      {
+        "icon":"FaLaravel"
+      },
+      {
+        "icon":"SiMysql"
+      },
+      {
+        "icon":"FaDocker"
+      },
+      {
+        "icon":"SiSemanticui"
+      },
+      {
+        "icon":"FaGithub"
+      }
+    ],
+    "links": [
+      {
+        "icon": "FaDocker"
+      },
+      {
+        "icon":"FaLink"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "ContactList",
+    "img": "/ContactListApp/cover/cover.jpg",
+    "load": "true",
+    "images": "/ContactListApp",
+    "slides": [
+      {
+        "src":"/ContactListApp/1.jpg"
+      },
+      {
+        "src":"/ContactListApp/2.jpg"
+      },
+      {
+        "src":"/ContactListApp/3.jpg"
+      },
+      {
+        "src":"/ContactListApp/4.jpg"
+      },
+      {
+        "src":"/ContactListApp/5.jpg"
+      },
+      {
+        "src":"/ContactListApp/6.jpg"
+      },
+      {
+        "src":"/ContactListApp/7.jpg"
+      },
+      {
+        "src":"/ContactListApp/8.jpg"
+      },
+      {
+        "src":"/ContactListApp/9.jpg"
+      },
+      {
+        "src":"/ContactListApp/10.jpg"
+      },
+      {
+        "src":"/ContactListApp/11.jpg"
+      }
+    ],
+    "appSupport":[
+      {
+        "icon": "SiAuthelia"
+      }
+    ],
+    "techIcons": [
+      {
+        "icon": "FaReact"
+      },
+      {
+        "icon": "FaPhp"
+      },
+      {
+        "icon":"FaLaravel"
+      },
+      {
+        "icon":"SiMysql"
+      },
+      {
+        "icon":"FaGithub"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "PrivateTeacher",
+    "img": "/PrivateTeacher/cover/cover.jpg",
+    "load": "true",
+    "images": "/PrivateTeacher",
+    "slides": [
+      {
+        "src":"/PrivateTeacher/1.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/2.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/3.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/4.jpg"
+      }
+    ],
+    "appSupport":[
+      {
+        "icon": "SiAuthelia"
+      }
+    ],
+    "techIcons": [
+      {
+        "icon": "FaReact"
+      },
+      {
+        "icon": "FaPhp"
+      },
+      {
+        "icon":"FaLaravel"
+      },
+      {
+        "icon":"FaDocker"
+      },
+      {
+        "icon":"SiPostgresql"
+      },
+      {
+        "icon":"FaGithub"
+      }
+    ]
+  }
+]

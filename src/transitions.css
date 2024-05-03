@@ -1,0 +1,66 @@
+@import 'animations.css';
+
+.transition-container{
+    position: fixed;
+    margin: 0 auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    z-index: 9999;
+}
+.transition-container .success {
+    font-size: 85px;
+    color: white;
+    border-radius: 50%;
+    background: var(--GreenColor);
+    border: none;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .success-container {
+        margin: auto auto;
+    }
+}
+.success-enter{
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+.success-enter-active{
+    animation: zoom 1.1s ease-in-out;
+}
+
+.success-exit{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.success-exit-active{
+    animation: fadeOut 1s ease-out;
+}
+
+.success-exit-done{
+    display: none;
+}
+
+.fade-enter{
+    opacity: 0;
+
+}
+
+.fade-enter-active{
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+.fade-exit{
+    opacity: 1;
+}
+.fade-exit-active{
+    opacity: 0;
+    transition: .3s ease-out;
+}
+.fade-exit-done{
+    display: none;
+}
