@@ -6,15 +6,15 @@
   <title>404 Not Found</title>
 </head>
 <body>
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const path = urlParams.get('p');
-    if (path) {
-      window.location.href = path;
-    }
-    else {
-      window.location.replace("/");
-    }
-  </script>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const path = urlParams.get('p');
+  if (path) {
+    window.location.href = path;
+  }
+  else {
+    window.location.replace("/");
+  }
+</script>
 </body>
 </html>
