@@ -10,11 +10,9 @@
     const urlParams = new URLSearchParams(window.location.search);
     const path = urlParams.get('p');
     if (path) {
-      // Az URL tartalmazza az útvonal paramétert, így újratöltjük az oldalt
       window.location.href = path;
     }
     else {
-      // Nincs útvonal paraméter az URL-ben, így visszatérünk a főoldalra
       window.location.replace("/");
     }
   </script>
