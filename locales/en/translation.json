@@ -1,0 +1,149 @@
+{
+  "header": {
+    "menu": {
+        "Home":{
+          "title":"Home"
+        },
+        "AboutMe":{
+          "title": "About Me",
+          "navLink": "/about"
+        },
+        "Projects":{
+          "title": "Projects",
+          "navLink": "/projects"
+        },
+        "Research":{
+          "title": "Research",
+          "navLink": "/research"
+        },
+        "ContactMe":{
+          "title": "Contact Me",
+          "navLink":"/contact"
+        }
+    }
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "paragraphs": {
+      "first": "I am a junior web developer, pianist and I currently work as a piano teacher.",
+      "second":"I actively involved in programming since 2022 september, what I am self-taught. I first started working with the R language, then the web direction caught my attention. During my studies, I watched YouTube tutorials, read online books, documentation and forums. I could confidently turn to my IT friends with professional questions.",
+      "third": "Overall, I am dedicated and enthusiastic about web development, I would like to further expand my knowledge in this area."
+    }
+  },
+  "greeting": {
+    "titles": {
+      "name": "Gábor Horváth",
+      "position": "Full-Stack Junior web developer"
+    },
+    "cvButton": {
+      "title": "CV"
+    }
+  },
+  "project": {
+    "Project-Lab": {
+      "titles": {
+        "description": "Description",
+        "technologies": "Technologies"
+      },
+      "paragraphs": {
+        "first": "Project-Lab is a project and task management application that helps facilitate quick and efficient work organization within projects."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authorization Management"
+        },
+        {
+          "icon": "FaDiagramProject",
+          "title": "Projects"
+        },
+        {
+          "icon": "FaTasks",
+          "title": "Tasks"
+        },
+        {
+          "icon": "AiOutlineNotification",
+          "title": "Deadline Management"
+        },
+        {
+          "icon": "FaRegCommentDots",
+          "title": "Communication"
+        }
+      ],
+      "links":[
+        {
+          "title": "Gallery",
+          "onClick": "open"
+        },
+        {
+          "icon": "FaDocker",
+          "title": "Docker"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Documentation"
+        }
+
+      ]
+    },
+    "ContactList": {
+      "titles": {
+        "description": "Description",
+        "technologies": "Technologies"
+      },
+      "paragraphs": {
+        "first": "ContactList App is a study project. I learnt mainly react in this project and authentication."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authorization Management"
+        }
+      ],
+      "links":[
+        {
+          "title": "Gallery",
+          "onClick": "open"
+        }
+      ]
+    },
+    "PrivateTeacher": {
+      "titles": {
+        "description": "Description",
+        "technologies": "Technologies"
+      },
+      "paragraphs": {
+        "first": "PrivateTeacher is an ongoing project, which is under develop. The project is designed for private teachers, who can create their own school or join an exsisting one. Here they can create courses with own unique condition and teachers evaluate the incoming applications. Parents can search course in a detaild search engine, and they can apply their own already registered children to a course. The app has several notification for example payment deadline, course requests, course cancel ect..."
+      },
+      "appSupport": [
+        {
+          "icon": "SiAuthelia",
+          "title": "Authorization Management"
+        },
+        {
+          "icon": "AiOutlineNotification",
+          "title": "Notifications"
+        },
+        {
+          "icon": "FaRegCommentDots",
+          "title": "Communication"
+        }
+      ],
+      "links":[
+        {
+          "title": "Gallery",
+          "onClick": "open"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "subject": "Subject",
+      "message": "Message"
+    }
+  }
+}
