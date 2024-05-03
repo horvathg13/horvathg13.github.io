@@ -31,7 +31,16 @@ p, h1, h2, h3, h4, h5{
 .logo{
     cursor: pointer;
 }
-
+input{
+    background: white;
+    font-family: 'Poppins', 'sans-serif';
+    border: none;
+}
+textarea{
+    background: white;
+    font-family: 'Poppins', 'sans-serif';
+    border: none;
+}
 /*General*/
 
 .flex{
@@ -154,7 +163,7 @@ input:read-only{
 }
 @media screen and (max-width: 460px){
     .header-main .lng-select button{
-        width: 40px;
+        width: 38px;
         overflow: hidden;
         padding: 0;
     }
