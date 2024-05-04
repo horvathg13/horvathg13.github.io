@@ -104,7 +104,7 @@
       ],
       "links":[
         {
-          "title": "Gallery",
+          "title": "Galéria",
           "onClick": "open"
         }
       ]
@@ -133,7 +133,7 @@
       ],
       "links":[
         {
-          "title": "Gallery",
+          "title": "Galéria",
           "onClick": "open"
         }
       ]
