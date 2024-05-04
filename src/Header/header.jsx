@@ -13,7 +13,10 @@ const Header=()=>{
     const {t}=useTranslation();
 
     useEffect(() => {
-        i18next.changeLanguage(languageTransform(language));
+        i18next.changeLanguage(languageTransform(language)).then(()=>{
+            document.title=t('document.title');
+        });
+
     }, [language]);
 
     return(
