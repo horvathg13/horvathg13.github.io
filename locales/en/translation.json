@@ -1,7 +1,7 @@
 {
   "cookies":{
     "header": "Cookie setting",
-    "message": "This website use Google Analitycs cookies only. Please accept it.",
+    "message": "This website use Google Analytics cookies only. Please accept it.",
     "acceptText": "Agree",
     "denyText": "Denied"
   },
