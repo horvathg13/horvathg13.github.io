@@ -1,4 +1,10 @@
 {
+  "cookies":{
+    "header": "Cookie setting",
+    "message": "This website use Google Analitycs cookies only. Please accept it.",
+    "acceptText": "Agree",
+    "denyText": "Denied"
+  },
   "document": {
     "title": "Gábor Horváth - Portfolio"
   },

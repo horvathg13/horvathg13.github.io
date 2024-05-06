@@ -1,4 +1,10 @@
 {
+  "cookies":{
+    "header": "Süti beállítások",
+    "message": "Ez a weboldal kizárólag Google Analitycs sütiket használ. Kérlek fogadd el.",
+    "acceptText": "Elfogadom",
+    "denyText": "Megtagadom"
+  },
   "document": {
     "title": "Horváth Gábor - Portfólió"
   },
