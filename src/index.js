@@ -25,7 +25,7 @@ i18next
     .use(initReactI18next)
     .use(backend)
     .init({
-        debug:true,
+        debug:false,
         lng:lng,
         ns:"translation",
         backend: {
