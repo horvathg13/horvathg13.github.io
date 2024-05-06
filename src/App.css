@@ -619,3 +619,58 @@ form .field textarea{
         transform: rotate(-360deg);
     }
 }
+
+/*Banner*/
+
+.banner-main-container{
+    width: 100%;
+    height: fit-content;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.77);
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid black;
+}
+.banner-header-container{
+    padding: 15px;
+    user-select: none;
+}
+.banner-header-container .banner-header h1{
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+.banner-header-container .banner-message h3{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.banner-buttons-container{
+    text-align: center;
+}
+.banner-buttons-container button{
+    padding: 10px 20px;
+    margin: 5px 15px;
+    background: var(--PrimaryColor);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: .5px;
+    font-family: 'Poppins', 'sans-serif';
+    transition: .3s ease-in-out;
+    box-shadow: 1px 1px 3px white;
+    font-size: 16px;
+}
+.banner-buttons-container button:hover{
+    background: var(--PinkColor);
+    box-shadow: 1px 1px 3px var(--PinkColor);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 512px){
+    .banner-buttons-container button{
+        margin: 5px 5px !important;
+    }
+}
