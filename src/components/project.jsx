@@ -75,6 +75,16 @@ const linkIconRender=(icon)=>{
 }
 return(
     <div className="project-main">
+        { findProject.update ? <div className="update-container">
+            <div className="title">
+                <h2>{t(`project.${findProject.name}.titles.update`)}: <span>v.{findProject.update.version}</span></h2>
+            </div>
+            <div className="update-description">
+                {findProject.update.items.map(i=>
+                    <li>{t(`project.${findProject.name}.update.${i}`)}</li>
+                )}
+            </div>
+        </div>:null}
         <div className="description-container">
             <div className="title"><h2>{t(`project.${findProject.name}.titles.description`)}</h2></div>
             <p>{t(`project.${findProject.name}.paragraphs.first`)}</p>

@@ -52,8 +52,16 @@
     "Project-Lab": {
       "titles": {
         "description": "Description",
-        "technologies": "Technologies"
+        "technologies": "Technologies",
+        "update": "New version available"
       },
+      "update": {
+        "design": "New design for modern user experience",
+        "service_call": "Optimized service calls",
+        "backend": "Laravel refactored"
+
+      }
+      ,
       "paragraphs": {
         "first": "Project-Lab is a project and task management application that helps facilitate quick and efficient work organization within projects."
       },

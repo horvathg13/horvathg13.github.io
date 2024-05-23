@@ -2,60 +2,83 @@
   {
     "id": "1",
     "name": "Project-Lab",
-    "img": "/ProjectLab/cover/cover.jpg",
+    "img": "/ProjectLab-newDesign/cover/cover.jpg",
     "load": "true",
-    "images": "/ProjectLab",
+    "images": "/ProjectLab-newDesign",
     "docker": "https://github.com/horvathg13/ProjectLab-Docker.git",
     "slides": [
       {
-        "src":"/ProjectLab/1.jpg"
+        "src":"/ProjectLab-newDesign/1.jpg"
       },
       {
-        "src":"/ProjectLab/2.jpg"
+        "src":"/ProjectLab-newDesign/2.jpg"
       },
       {
-        "src":"/ProjectLab/3.jpg"
+        "src":"/ProjectLab-newDesign/3.jpg"
       },
       {
-        "src":"/ProjectLab/4.jpg"
+        "src":"/ProjectLab-newDesign/4.jpg"
       },
       {
-        "src":"/ProjectLab/5.jpg"
+        "src":"/ProjectLab-newDesign/5.jpg"
       },
       {
-        "src":"/ProjectLab/6.jpg"
+        "src":"/ProjectLab-newDesign/6.jpg"
       },
       {
-        "src":"/ProjectLab/7.jpg"
+        "src":"/ProjectLab-newDesign/7.jpg"
       },
       {
-        "src":"/ProjectLab/8.jpg"
+        "src":"/ProjectLab-newDesign/8.jpg"
       },
       {
-        "src":"/ProjectLab/9.jpg"
+        "src":"/ProjectLab-newDesign/9.jpg"
       },
       {
-        "src":"/ProjectLab/10.jpg"
+        "src":"/ProjectLab-newDesign/10.jpg"
       },
       {
-        "src":"/ProjectLab/11.jpg"
+        "src":"/ProjectLab-newDesign/11.jpg"
       },
       {
-        "src":"/ProjectLab/13.jpg"
+        "src":"/ProjectLab-newDesign/13.jpg"
       },
       {
-        "src":"/ProjectLab/14.jpg"
+        "src":"/ProjectLab-newDesign/14.jpg"
       },
       {
-        "src":"/ProjectLab/15.jpg"
+        "src":"/ProjectLab-newDesign/15.jpg"
       },
       {
-        "src":"/ProjectLab/16.jpg"
+        "src":"/ProjectLab-newDesign/16.jpg"
       },
       {
-        "src":"/ProjectLab/17.jpg"
+        "src":"/ProjectLab-newDesign/17.jpg"
+      },
+      {
+        "src":"/ProjectLab-newDesign/18.jpg"
+      },
+      {
+        "src":"/ProjectLab-newDesign/19.jpg"
+      },{
+        "src":"/ProjectLab-newDesign/20.jpg"
+      },
+      {
+        "src":"/ProjectLab-newDesign/21.jpg"
+      },
+      {
+        "src":"/ProjectLab-newDesign/22.jpg"
+      },
+      {
+        "src":"/ProjectLab-newDesign/23.jpg"
       }
     ],
+    "update": {
+      "version": "2.0(2024)",
+      "items": [
+        "design", "service_call", "backend"
+      ]
+    },
     "appSupport":[
       {
         "icon": "SiAuthelia"
