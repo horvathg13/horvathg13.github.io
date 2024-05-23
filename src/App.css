@@ -424,6 +424,21 @@ input:read-only{
     font-weight: normal;
     letter-spacing: 1px;
 }
+.project-main .update-container{
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 0 25px;
+    margin-top: 15px;
+}
+.project-main .update-container .title h2 span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.project-main .update-container .update-description li{
+    list-style: disc;
+    margin: 5px;
+}
 .technologies-container .tech-icons{
     font-size: 35px;
     justify-content: space-around;
@@ -674,3 +689,4 @@ form .field textarea{
         margin: 5px 5px !important;
     }
 }
+
