@@ -52,7 +52,13 @@
     "Project-Lab": {
       "titles": {
         "description": "Leírás",
-        "technologies": "Technológiák"
+        "technologies": "Technológiák",
+        "update": "Új frissítés érhető el"
+      },
+      "update":{
+        "design": "Modern felhasználói élmény nyújtása új dizájnnal",
+        "service_call": "Optimalizált szolgáltatáshívások",
+        "backend": "Laravel refaktorálása"
       },
       "paragraphs": {
         "first": "Project-Lab egy projekt és feladatkezelő alkalmazás, amely segíti a hatékony és gyors munkaszervezést egy projekten belül."
