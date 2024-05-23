@@ -1,4 +1,4 @@
-import {NavLink, useNavigate} from "react-router-dom";
+import {NavLink, useLocation, useNavigate} from "react-router-dom";
 import {FaListUl} from "react-icons/fa";
 import {useEffect, useState} from "react";
 import ReactFlagsSelect from "react-flags-select";
@@ -11,10 +11,12 @@ const Header=()=>{
     const [openMobileMenu, setOpenMobileMenu]=useState(false)
     const [language, setLanguage] = useState("HU");
     const {t}=useTranslation();
+    const location=useLocation();
 
     useEffect(() => {
         i18next.changeLanguage(languageTransform(language)).then(()=>{
             document.title=t('document.title');
+            console.log(location);
         });
 
     }, [language]);
