@@ -400,7 +400,9 @@ input:read-only{
 .project-card-main .project-image .project-title, img{
     width: 100%;
     min-height: 306px;
-
+}
+.project-list-main .project-card-main .project-image img{
+    height: 306px;
 }
 .project-card-main .project-title h2{
     text-align: center;
