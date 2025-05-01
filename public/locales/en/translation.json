@@ -130,26 +130,50 @@
         "technologies": "Technologies"
       },
       "paragraphs": {
-        "first": "PrivateTeacher is an ongoing project, which is under develop. The project is designed for private teachers, who can create their own school or join an exsisting one. Here they can create courses with own unique condition and teachers evaluate the incoming applications. Parents can search course in a detaild search engine, and they can apply their own already registered children to a course. The app has several notification for example payment deadline, course requests, course cancel ect..."
+        "first": "The PrivateTeacher web application is a platform designed for private teachers to connect with parents seeking suitable courses for their children. It facilitates seamless interaction between teachers and parents, enabling efficient course management, student enrollment, course termination and message sending."
       },
       "appSupport": [
         {
           "icon": "SiAuthelia",
-          "title": "Authorization Management"
+          "title": "Authentication"
         },
         {
-          "icon": "AiOutlineNotification",
-          "title": "Notifications"
+          "icon": "FaSearch",
+          "title": "Search"
         },
         {
           "icon": "FaRegCommentDots",
           "title": "Communication"
+        },
+        {
+          "icon": "IoLanguageSharp",
+          "title": "Localization"
+        },
+        {
+          "icon": "FaFileContract",
+          "title": "Activity logging"
+        },
+        {
+          "icon": "FaCogs",
+          "title": "Smart Course Monitoring"
+        },
+        {
+          "icon": "FaShieldHalved",
+          "title": "Smart protection"
         }
       ],
       "links":[
         {
           "title": "Gallery",
           "onClick": "open"
+        },
+        {
+          "icon": "FaDocker",
+          "title": "Docker"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Documentation"
         }
       ]
     }

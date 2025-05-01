@@ -3,14 +3,14 @@ import projects from "../projects.json";
 import {useEffect, useState} from "react";
 import {
     FaArrowLeft,
-    FaArrowRight,
+    FaArrowRight, FaCogs,
     FaDocker,
-    FaDownload,
+    FaDownload, FaFileContract,
     FaGithub,
     FaLaravel, FaLink,
     FaPhp,
-    FaReact, FaRegCommentDots, FaTasks,
-    FaVuejs
+    FaReact, FaRegCommentDots, FaSearch, FaTasks,
+    FaVuejs,
 } from "react-icons/fa";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -19,10 +19,11 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 import {SiAuthelia, SiMysql, SiPostgresql, SiSemanticui} from "react-icons/si";
-import {FaDiagramProject} from "react-icons/fa6";
+import {FaDiagramProject, FaShieldHalved} from "react-icons/fa6";
 import {AiOutlineNotification} from "react-icons/ai";
 import {useTranslation} from "react-i18next";
 import i18next from "i18next";
+import {IoLanguageSharp} from "react-icons/io5";
 
 const Project=()=>{
 let {projectId}=useParams();
@@ -37,6 +38,11 @@ const supportIconRender=(icon)=>{
         case 'FaRegCommentDots':return <FaRegCommentDots />;
         case 'FaDocker': return <FaDocker/>
         case 'SiPostgresql':return <SiPostgresql />
+        case 'FaSearch': return <FaSearch />
+        case 'FaShieldHalved': return <FaShieldHalved/>
+        case 'FaCogs': return <FaCogs />
+        case 'FaFileContract': return <FaFileContract />
+        case 'IoLanguageSharp': return <IoLanguageSharp />
         default: return null;
     }
 }

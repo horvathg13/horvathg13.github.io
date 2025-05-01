@@ -127,26 +127,50 @@
         "technologies": "Technológiák"
       },
       "paragraphs": {
-        "first": "A PrivateTeacher egy folyamatban lévő projekt, amely fejlesztés alatt áll. A projekt magánoktatók számára készül, akik létrehozhatják saját iskolájukat, vagy csatlakozhatnak egy már meglévőhöz. Az iskolán belül kurzusokat hozhatnak létre egyéni feltételek szerint és az oktatók bírálják el a beérkező jelentkezési kérelmeket is. A szülők részletes keresőmotor segítségével kereshetnek kurzusokat, és jelentkeztethetik már regisztrált gyerekeiket a kurzusra. Az alkalmazás több értesítést is tartalmaz, mint például a tandíjfizetési határidő, bejövő kérelmek, tanóra lemondása stb..."
+        "first": "A PrivateTeacher magántanárok számára készült webes alkalmazás. Lehetővé teszi a kapcsolatteremtést a tanárok és a szülők között, akik gyermekük számára keresnek megfelelő kurzust. Az alkalmazás segítségével hatékonyan kezelhető a kurzusok létrehozása, a jelentkezések feldolgozása, a lemondások kezelése és az üzenetküldés."
       },
       "appSupport": [
         {
           "icon": "SiAuthelia",
-          "title": "Authentikáció"
+          "title": "Autentikáció"
         },
         {
-          "icon": "AiOutlineNotification",
-          "title": "Notifications"
+          "icon": "FaSearch",
+          "title": "Keresés"
         },
         {
           "icon": "FaRegCommentDots",
-          "title": "Communication"
+          "title": "Kommunikáció"
+        },
+        {
+          "icon": "IoLanguageSharp",
+          "title": "Nyelviesítés"
+        },
+        {
+          "icon": "FaFileContract",
+          "title": "Tevékenység követés"
+        },
+        {
+          "icon": "FaCogs",
+          "title": "Intelligens kurzusfelügyelet"
+        },
+        {
+          "icon": "FaShieldHalved",
+          "title": "Intelligens védelem"
         }
       ],
       "links":[
         {
           "title": "Galéria",
           "onClick": "open"
+        },
+        {
+          "icon": "FaDocker",
+          "title": "Docker-link"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Dokumentáció"
         }
       ]
     }

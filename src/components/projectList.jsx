@@ -8,8 +8,8 @@ const ProjectList=()=> {
 
     return (
         <div className="project-list-main flex">
-           {projects.map((e) =>
-                <div className="project-card-main block" onClick={()=>{navigate(`/projects/${e.id}`)}}>
+           {projects.sort((a, b) => a.id - b.id).map((e) =>
+                <div key={e.id} className="project-card-main block" onClick={()=>{navigate(`/projects/${e.id}`)}}>
                     <div className="project-image">
                         <img src={e.img}/>
                     </div>
