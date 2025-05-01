@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "2",
     "name": "Project-Lab",
     "img": "/ProjectLab-newDesign/cover/cover.jpg",
     "load": "true",
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "ContactList",
     "img": "/ContactListApp/cover/cover.jpg",
     "load": "true",
@@ -193,11 +193,12 @@
     ]
   },
   {
-    "id": "3",
+    "id": "1",
     "name": "PrivateTeacher",
     "img": "/PrivateTeacher/cover/cover.jpg",
     "load": "true",
     "images": "/PrivateTeacher",
+    "docker": "https://github.com/horvathg13/PrivateTeacher-Docker.git",
     "slides": [
       {
         "src":"/PrivateTeacher/1.jpg"
@@ -210,11 +211,77 @@
       },
       {
         "src":"/PrivateTeacher/4.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/5.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/6.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/7.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/8.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/9.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/10.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/11.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/12.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/13.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/14.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/15.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/16.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/17.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/18.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/19.jpg"
+      },
+      {
+        "src":"/PrivateTeacher/20.jpg"
       }
     ],
     "appSupport":[
       {
         "icon": "SiAuthelia"
+      },
+      {
+        "icon": "FaSearch"
+      },
+      {
+        "icon": "FaRegCommentDots"
+      },
+      {
+        "icon": "IoLanguageSharp"
+      },
+      {
+        "icon": "FaFileContract"
+      },
+      {
+        "icon": "FaCogs"
+      },
+      {
+        "icon": "FaShieldHalved"
       }
     ],
     "techIcons": [
