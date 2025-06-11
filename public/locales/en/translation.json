@@ -176,6 +176,39 @@
           "title": "Documentation"
         }
       ]
+    },
+    "MetropolCast": {
+      "titles": {
+        "description": "Leírás",
+        "technologies": "Technológiák"
+      },
+      "paragraphs": {
+        "first": "MetropolCast is a user-friendly weather forecasting application, that displays current weather conditions and provides detailed forecasts for the next two days. It places a strong emphasis on localization, ensuring a seamless user experience in the user's native language."
+      },
+      "appSupport": [
+        {
+          "icon": "FaSearch",
+          "title": "Search"
+        },
+        {
+          "icon": "IoLanguageSharp",
+          "title": "Localization"
+        },
+        {
+          "icon": "FaChartLine",
+          "title": "Graphical forecast"
+        }
+      ],
+      "links":[
+        {
+          "icon": "FaPlay",
+          "title": "Try it"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Documentation"
+        }
+      ]
     }
   },
   "contact": {

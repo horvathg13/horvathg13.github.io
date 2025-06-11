@@ -11,6 +11,8 @@ import {
     FaPhp,
     FaReact, FaRegCommentDots, FaSearch, FaTasks,
     FaVuejs,
+    FaChartLine,
+    FaPlay
 } from "react-icons/fa";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -19,7 +21,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 import {SiAuthelia, SiMysql, SiPostgresql, SiSemanticui} from "react-icons/si";
-import {FaDiagramProject, FaShieldHalved} from "react-icons/fa6";
+import {FaDiagramProject, FaShieldHalved, FaDisplay} from "react-icons/fa6";
 import {AiOutlineNotification} from "react-icons/ai";
 import {useTranslation} from "react-i18next";
 import i18next from "i18next";
@@ -43,6 +45,7 @@ const supportIconRender=(icon)=>{
         case 'FaCogs': return <FaCogs />
         case 'FaFileContract': return <FaFileContract />
         case 'IoLanguageSharp': return <IoLanguageSharp />
+        case 'FaChartLine': return <FaChartLine />
         default: return null;
     }
 }
@@ -76,6 +79,7 @@ const linkIconRender=(icon)=>{
     switch (icon){
         case 'FaDocker': return  <FaDocker className="btn-icon"/>
         case 'FaLink':return  <FaLink  className="btn-icon"/>
+        case 'FaPlay':return <FaPlay />
         default: return null
     }
 }
@@ -112,10 +116,10 @@ return(
         <div className="link-container flex">
             {linkButtons.map((b,i)=>
                 <Link
-                    to={b.icon?(b.icon === 'FaDocker' ? `${findProject.docker}`:null) || (b.icon==='FaLink' ? `/documentations/${findProject.name}/${i18next.language}.pdf` : null) :null}
+                    to={b.icon?(b.icon === 'FaDocker' || b.icon === 'FaPlay' ? `${findProject.docker}`:null) || (b.icon==='FaLink' ? `/documentations/${findProject.name}/${i18next.language}.pdf` : null) :null}
                     target={ b.icon ? "_blank" :null}>
                     <button key={i} type="button" onClick={() => linkContainerOnClickHandler(b.onClick)}>
-                        {linkIconRender(b.icon)}{b.title}
+                        {linkIconRender(b.icon)} {b.title}
                     </button>
                 </Link>
             )}

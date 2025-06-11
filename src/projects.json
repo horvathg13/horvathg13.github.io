@@ -1,6 +1,6 @@
 [
   {
-    "id": "2",
+    "id": "3",
     "name": "Project-Lab",
     "img": "/ProjectLab-newDesign/cover/cover.jpg",
     "load": "true",
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "ContactList",
     "img": "/ContactListApp/cover/cover.jpg",
     "load": "true",
@@ -193,7 +193,7 @@
     ]
   },
   {
-    "id": "1",
+    "id": "2",
     "name": "PrivateTeacher",
     "img": "/PrivateTeacher/cover/cover.jpg",
     "load": "true",
@@ -299,6 +299,32 @@
       },
       {
         "icon":"SiPostgresql"
+      },
+      {
+        "icon":"FaGithub"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "MetropolCast",
+    "img": "/MetropolCast/cover/cover.jpg",
+    "load": "true",
+    "docker": "https://horvathg13.github.io/metropolcast/",
+    "appSupport":[
+      {
+        "icon": "FaSearch"
+      },
+      {
+        "icon": "IoLanguageSharp"
+      },
+      {
+        "icon": "FaChartLine"
+      }
+    ],
+    "techIcons": [
+      {
+        "icon":"FaVuejs"
       },
       {
         "icon":"FaGithub"
