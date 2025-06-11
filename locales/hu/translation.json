@@ -173,6 +173,39 @@
           "title": "Dokumentáció"
         }
       ]
+    },
+    "MetropolCast": {
+      "titles": {
+        "description": "Leírás",
+        "technologies": "Technológiák"
+      },
+      "paragraphs": {
+        "first": "A MetropolCast egy felhasználóbarát időjárás-előrejelző alkalmazás. Megmutatja pillanatnyi időjárási viszonyokat és két napra előre részletes előrejelzést biztosít. Kiemelt hangsúlyt fektet a nyelviesítésre, lehetővé téve a zökkenőmentes használatot a felhasználó anyanyelvén."
+      },
+      "appSupport": [
+        {
+          "icon": "FaSearch",
+          "title": "Keresés"
+        },
+        {
+          "icon": "IoLanguageSharp",
+          "title": "Nyelviesítés"
+        },
+        {
+          "icon": "FaChartLine",
+          "title": "Grafikonos előrejelzés"
+        }
+      ],
+      "links":[
+        {
+          "icon": "FaPlay",
+          "title": "Próbálja ki"
+        },
+        {
+          "icon": "FaLink",
+          "title": "Dokumentáció"
+        }
+      ]
     }
   },
   "contact": {
